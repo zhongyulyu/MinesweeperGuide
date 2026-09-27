@@ -1,0 +1,42 @@
+[
+  {
+    "id": 10001,
+    "content": "我先问一下，你是第一次玩扫雷吗？",
+    "color": "White",
+    "opt_a": "",
+    "opt_b": "",
+    "default_choise": false
+  },
+  {
+    "id": 10002,
+    "content": "我给你扣点时间，然后在关卡结束时多给你500金币，如何？",
+    "color": "White",
+    "opt_a": "",
+    "opt_b": "",
+    "default_choise": false
+  },
+  {
+    "id": 10003,
+    "content": "那这样吧，给我1000金币，我就给你加点时间。",
+    "color": "White",
+    "opt_a": "",
+    "opt_b": "",
+    "default_choise": false
+  },
+  {
+    "id": 3001,
+    "content": "我给你加点时间，然后给你加一个地雷？",
+    "color": "Yellow",
+    "opt_a": "",
+    "opt_b": "",
+    "default_choise": false
+  },
+  {
+    "id": 3002,
+    "content": "我给你扣点时间，然后给你消一个地雷？",
+    "color": "Yellow",
+    "opt_a": "",
+    "opt_b": "",
+    "default_choise": false
+  }
+]

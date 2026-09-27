@@ -1,0 +1,348 @@
+[
+  {
+    "Setup": {
+      "入场": {
+        "type":0,
+        "source": "入场",
+        "trigger": {
+          "source": "LevelTimer",
+          "prm": 0.0
+        },
+        "target": 0,
+        "time": 0.0
+      },
+      "自我介绍": {
+        "type":0,
+        "source": "自我介绍",
+        "trigger": {
+          "source": "LevelTimer",
+          "prm": 2.0
+        },
+        "target": 0,
+        "time": 4.0
+      },
+      "提问": {
+        "type":0,
+        "source": "问是不是第一次玩",
+        "trigger": {
+          "source": "自我介绍",
+          "prm": 0.0
+        },
+        "target": 0,
+        "time": 10.0
+      },
+      "高手计时器": {
+        "type":1,
+        "source": "自我介绍",
+        "trigger": {
+          "source": "提问",
+          "prm": 1.0
+        },
+        "target": 0,
+        "time": 0.0
+      },
+      "高手": {
+        "type":0,
+        "source": "高手",
+        "trigger": {
+          "source": "提问",
+          "prm": 1.0
+        },
+        "target": 0,
+        "time": 3.0
+      },
+      "高手给雷": {
+        "type":0,
+        "source": "放雷",
+        "trigger": {
+          "source": "高手",
+          "prm": 0.0
+        },
+        "target": 0,
+        "time": 0.0
+      },
+      "低手": {
+        "type":0,
+        "source": "教程1",
+        "trigger": {
+          "source": "提问",
+          "prm": 0.0
+        },
+        "target": 0,
+        "time": 3.0
+      },
+      "教程2": {
+        "type":0,
+        "source": "教程2",
+        "trigger": {
+          "source": "低手",
+          "prm": 0.0
+        },
+        "target": 0,
+        "time": 3.0
+      },
+      "教程3": {
+        "type":0,
+        "source": "教程3",
+        "trigger": {
+          "source": "教程2",
+          "prm": 0.0
+        },
+        "target": 0,
+        "time": 6.0
+      },
+      "踩雷": {
+        "type":0,
+        "source": "踩雷",
+        "trigger": {
+          "source": "教程3",
+          "prm": 0.0
+        },
+        "target": 0,
+        "time": 0
+      },
+      "踩雷完成后计时器": {
+        "type":1,
+        "source": "教程3",
+        "trigger": {
+          "source": "教程3",
+          "prm": 0.0
+        },
+        "target": 0,
+        "time": 0
+      },
+      "AUV": {
+        "type":0,
+        "source": "AUV",
+        "trigger": {
+          "source": "踩雷完成后计时器",
+          "prm": 0.52
+        },
+        "target": 0,
+        "time": 0
+      },
+      "我不玩了": {
+        "type":0,
+        "source": "太赖了不玩了",
+        "trigger": {
+          "source": "踩雷完成后计时器",
+          "prm": 4.0
+        },
+        "target": 0,
+        "time": 2.0
+      },
+      "提议": {
+        "type":0,
+        "source": "没意思",
+        "trigger": {
+          "source": "LevelTimer",
+          "prm": 25.0
+        },
+        "target": 0,
+        "time": 3.0
+      },
+      "提议提问": {
+        "type":0,
+        "source": "提议提问",
+        "trigger": {
+          "source": "提议",
+          "prm": 0.0
+        },
+        "target": 0,
+        "time": 0.0
+      },
+      "round2的计时器": {
+        "type":1,
+        "source": "自我介绍",
+        "trigger": {
+          "source": "RoundCounter",
+          "prm": 1.0
+        },
+        "target": 0,
+        "time": 0.0
+      },
+      "忘告诉你了": {
+        "type":0,
+        "source": "忘告诉你了",
+        "trigger": {
+          "source": "round2的计时器",
+          "prm": 0.5
+        },
+        "target": 0,
+        "time": 0.5
+      },
+      "回合规则介绍": {
+        "type":0,
+        "source": "回合规则介绍",
+        "trigger": {
+          "source": "忘告诉你了",
+          "prm": 0.0
+        },
+        "target": 0,
+        "time": 5.0
+      }
+    },
+    "Source": {
+      "自我介绍": {
+        "EventType": 0,
+        "ID": [
+          10001
+        ],
+        "args": []
+      },
+      "问是不是第一次玩": {
+        "EventType": 1,
+        "ID": [
+          10001
+        ],
+        "args": []
+      },
+      "高手": {
+        "EventType": 0,
+        "ID": [
+          10002
+        ],
+        "args": [
+          [
+            5,
+            5,
+            4,
+            4,
+            3,
+            3,
+            3,
+            3
+          ]
+        ]
+      },
+      "放雷": {
+        "EventType": 2,
+        "ID": [
+          2001
+        ],
+        "args": [
+          [
+            1,
+            2,
+            2,
+            2,
+            3,
+            3,
+            3,
+            4
+          ]
+        ]
+      },
+      "没意思": {
+        "EventType": 0,
+        "ID": [
+          10008
+        ],
+        "args": []
+      },
+      "教程1": {
+        "EventType": 0,
+        "ID": [
+          10003
+        ],
+        "args": []
+      },
+      "教程2": {
+        "EventType": 0,
+        "ID": [
+          10004
+        ],
+        "args": []
+      },
+      "教程3": {
+        "EventType": 0,
+        "ID": [
+          10005
+        ],
+        "args": []
+      },
+      "踩雷": {
+        "EventType": 2,
+        "ID": [
+          10001
+        ],
+        "args": []
+      },
+      "运气差我再点": {
+        "EventType": 0,
+        "ID": [
+          10006
+        ],
+        "args": []
+      },
+      "AUV": {
+        "EventType": 2,
+        "ID": [
+          101
+        ],
+        "args": []
+      },
+      "太赖了不玩了": {
+        "EventType": 0,
+        "ID": [
+          10007
+        ],
+        "args": []
+      },
+      "入场": {
+        "EventType": 2,
+        "ID": [
+          102
+        ],
+        "args": [
+          [
+            5
+          ],
+          [
+            -1
+          ],
+          [
+            1
+          ]
+        ]
+      },
+      "提议提问": {
+        "EventType": 1,
+        "ID": [
+          10002
+        ],
+        "args": []
+      },
+      "忘告诉你了": {
+        "EventType": 0,
+        "ID": [
+          10010
+        ],
+        "args": []
+      },
+      "回合规则介绍": {
+        "EventType": 0,
+        "ID": [
+          10011
+        ],
+        "args": []
+      }
+    },
+    "LevelConfig": {
+      "width": 9,
+      "height": 9,
+      "time_max": 100,
+      "times": 2,
+      "mine": [
+        8,
+        8,
+        9,
+        9,
+        10,
+        10,
+        11,
+        12
+      ]
+    }
+  }
+]

@@ -1,0 +1,376 @@
+[
+  {
+    "id": 100,
+    "content": "我锤子呢？",
+    "color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "ca_interupt": false
+  },
+  {
+    "id": 101,
+    "content": "幸好我手快。",
+    "color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "ca_interupt": false
+  },
+  {
+    "id": 102,
+    "content": "这也没有哇。",
+    "color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "ca_interupt": false
+  },
+  {
+    "id": 103,
+    "content": "拿来吧你。",
+    "color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "ca_interupt": false
+  },
+  {
+    "id": 104,
+    "content": "由不得你。",
+    "color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "ca_interupt": false
+  },
+  {
+    "id": 105,
+    "content": "不用跟我客气。",
+    "color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "ca_interupt": false
+  },
+  {
+    "id": 106,
+    "content": "我点错了。",
+    "color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "ca_interupt": false
+  },
+  {
+    "id": 107,
+    "content": "我加错了。",
+    "color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "ca_interupt": false
+  },
+  {
+    "id": 108,
+    "content": "我过关了。",
+    "color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "ca_interupt": false
+  },
+  {
+    "id": 109,
+    "content": "等会你就后悔了。",
+    "color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "ca_interupt": false
+  },
+  {
+    "id": 1001,
+    "content": "我帮你消一个地雷。",
+    "color": {
+      "r": 0.0,
+      "g": 1.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "ca_interupt": false
+  },
+  {
+    "id": 1002,
+    "content": "我给你加点时间。",
+    "color": {
+      "r": 0.0,
+      "g": 1.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "ca_interupt": false
+  },
+  {
+    "id": 1003,
+    "content": "我帮你标记几个地雷。",
+    "color": {
+      "r": 0.0,
+      "g": 1.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "ca_interupt": false
+  },
+  {
+    "id": 1004,
+    "content": "我帮你点开几个格子。",
+    "color": {
+      "r": 0.0,
+      "g": 1.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "ca_interupt": false
+  },
+  {
+    "id": 1005,
+    "content": "我送你几个旗子。",
+    "color": {
+      "r": 0.0,
+      "g": 1.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "ca_interupt": false
+  },
+  {
+    "id": 1006,
+    "content": "我给你加几个锤子。",
+    "color": {
+      "r": 0.0,
+      "g": 1.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "ca_interupt": false
+  },
+  {
+    "id": 2001,
+    "content": "我帮你放几个地雷。",
+    "color": {
+      "r": 1.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "ca_interupt": false
+  },
+  {
+    "id": 2002,
+    "content": "我给你扣点时间。",
+    "color": {
+      "r": 1.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "ca_interupt": false
+  },
+  {
+    "id": 2003,
+    "content": "我帮你点开几个地雷。",
+    "color": {
+      "r": 1.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "ca_interupt": false
+  },
+  {
+    "id": 2004,
+    "content": "我帮你盖几个格子。",
+    "color": {
+      "r": 1.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "ca_interupt": false
+  },
+  {
+    "id": 2005,
+    "content": "我拿你几个旗子玩玩",
+    "color": {
+      "r": 1.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "ca_interupt": false
+  },
+  {
+    "id": 2006,
+    "content": "我给你扣几个锤子。",
+    "color": {
+      "r": 1.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "ca_interupt": false
+  },
+  {
+    "id": 10001,
+    "content": "你好，我是头牛，我来协助你穿过这片雷区。",
+    "color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "ca_interupt": false
+  },
+  {
+    "id": 10002,
+    "content": "那你是高手啊，我多帮你放几个雷。",
+    "color": {
+      "r": 1.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "ca_interupt": false
+  },
+  {
+    "id": 10003,
+    "content": "我估计你也不知道怎么扫雷，我给你讲解一下。",
+    "color": {
+      "r": 0.0,
+      "g": 1.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "ca_interupt": false
+  },
+  {
+    "id": 10004,
+    "content": "你看屏幕上这些格子，里面藏了一些雷。",
+    "color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "ca_interupt": false
+  },
+  {
+    "id": 10005,
+    "content": "格子里有数字，提示你周围有几个雷。为了给你展示这个特性，我帮你点开一个格子。",
+    "color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "ca_interupt": false
+  },
+  {
+    "id": 10006,
+    "content": "运气太差了，我再点一个。",
+    "color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "ca_interupt": false
+  },
+  {
+    "id": 10007,
+    "content": "太赖了，我看你玩。",
+    "color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "ca_interupt": false
+  },
+  {
+    "id": 10008,
+    "content": "你这时间太长了，没意思。我有一个提议。",
+    "color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "ca_interupt": false
+  },
+  {
+    "id": 10009,
+    "content": "真怂啊你。",
+    "color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "ca_interupt": false
+  },
+  {
+    "id": 10010,
+    "content": "对了，我忘告诉你了。",
+    "color": {
+      "r": 1.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "ca_interupt": false
+  },
+  {
+    "id": 10011,
+    "content": "一关有多片雷区，全部穿过才能过关。",
+    "color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "ca_interupt": false
+  },
+  {
+    "id": 10011,
+    "content": "你时间不够哇。",
+    "color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "ca_interupt": false
+  }
+]
